@@ -1,0 +1,1 @@
+<?phpinclude("../../common/vars.php");include ('../../config.php');$usr1 = $_GET['uid'];$hsl='';$Kondisi = " where uid='".$usr1."' and online=1 					and TIMESTAMPDIFF(MINUTE,lastaktif,now()) < ".$USER_TIME_OUT;$qry = sqlQuery("select * from admin $Kondisi ");if( sqlRowCount($qry)>0){	$hsl = '1';}echo $hsl;?>

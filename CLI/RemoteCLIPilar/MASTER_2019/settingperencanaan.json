@@ -1,0 +1,123 @@
+{
+    "tableName": "settingperencanaan",
+    "dumpFile": "MASTER_2019\/settingperencanaan.sql",
+    "index": [],
+    "colums": [
+        {
+            "COLUMN_NAME": "wajib_validasi",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "bypass_jadwal",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tahun",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jenis_anggaran",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "provinsi",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "kota",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "pejabat",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "pengelola",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "pengurus",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "logo",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/80cb8bae3b3846a4e3fcccc28c8388d85214951b2a1ec530e5edc954ccb2ea0a') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/4119fe5438d1533e8f16b68c6d5e440114f0f4cacf56b5319df3ebc7ec1565b7') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/1443b23802e83bb311e5a36af7bd4f3a075704fd62c1f159716eb49d5f8bcf05') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/80cb8bae3b3846a4e3fcccc28c8388d85214951b2a1ec530e5edc954ccb2ea0a') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/4119fe5438d1533e8f16b68c6d5e440114f0f4cacf56b5319df3ebc7ec1565b7') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/1443b23802e83bb311e5a36af7bd4f3a075704fd62c1f159716eb49d5f8bcf05') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/80cb8bae3b3846a4e3fcccc28c8388d85214951b2a1ec530e5edc954ccb2ea0a') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/4119fe5438d1533e8f16b68c6d5e440114f0f4cacf56b5319df3ebc7ec1565b7') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2017','MURNI','Jawa Barat','Bandung','10','12','11','Media\/87d0901e8dd2ea7037e55bf83e2346cb.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/fb35c241ea8a97853a10f49e3da1e7ff.png') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/1443b23802e83bb311e5a36af7bd4f3a075704fd62c1f159716eb49d5f8bcf05') ",
+        "INSERT INTO settingperencanaan (wajib_validasi,bypass_jadwal,tahun,jenis_anggaran,provinsi,kota,pejabat,pengelola,pengurus,logo) values ('0','1','2018','MURNI','Jawa Barat','Bandung','10','12','11','Media\/83efb4eba6d1765110c5dba44eaba928.png') "
+    ]
+}

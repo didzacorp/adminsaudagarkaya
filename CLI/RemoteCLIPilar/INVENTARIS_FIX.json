@@ -1,0 +1,29 @@
+[
+    {
+        "databaseName": "db_atisisbada_2019",
+        "tables": [
+            {
+                "table_name": "inventaris",
+                "json_file": "DATABASE-UPDATE-2019-12/inventaris.json"
+            }
+        ],
+        "views": [
+            {
+                "view_name": "",
+                "json_file": "DATABASE-UPDATE-2019-12/.json"
+            }
+        ],
+        "triggers": [
+            {
+                "trigger_name": "",
+                "json_file": "DATABASE-UPDATE-2019-12/.json"
+            }
+        ],
+        "routines": [
+            {
+                "routine_name": "",
+                "json_file": "DATABASE-UPDATE-2019-12/.json"
+            }
+        ]
+    }
+]

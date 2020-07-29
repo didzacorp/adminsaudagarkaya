@@ -1,0 +1,81 @@
+[
+    {
+        "databaseName": "db_development_108",
+        "tables": [
+            {
+                "table_name": "setting",
+                "json_file": "MASTER_2019/setting.json"
+            },
+            {
+                "table_name": "t_pengaturan",
+                "json_file": "MASTER_2019/t_pengaturan.json"
+            },
+            {
+                "table_name": "ref_modul",
+                "json_file": "MASTER_2019/ref_modul.json"
+            },
+            {
+                "table_name": "ref_jenis_pemeliharaan",
+                "json_file": "MASTER_2019/ref_jenis_pemeliharaan.json"
+            },
+            {
+                "table_name": "settingperencanaan",
+                "json_file": "MASTER_2019/settingperencanaan.json"
+            },
+            {
+                "table_name": "tahap_rka",
+                "json_file": "MASTER_2019/tahap_rka.json"
+            },
+            {
+                "table_name": "pengaturan_persediaan",
+                "json_file": "MASTER_2019/pengaturan_persediaan.json"
+            },
+            {
+                "table_name": "ref_tahap_anggaran",
+                "json_file": "MASTER_2019/ref_tahap_anggaran.json"
+            },
+            {
+                "table_name": "ref_cara_pemenuhan",
+                "json_file": "MASTER_2019/ref_cara_pemenuhan.json"
+            },
+            {
+                "table_name": "ref_sumber_dana",
+                "json_file": "MASTER_2019/ref_sumber_dana.json"
+            },
+            {
+                "table_name": "images",
+                "json_file": "MASTER_2019/images.json"
+            },
+            {
+                "table_name": "setting_dashboard",
+                "json_file": "MASTER_2019/setting_dashboard.json"
+            },
+            {
+                "table_name": "ref_barang_108",
+                "json_file": "MASTER_2019/ref_barang_108.json"
+            },
+            {
+                "table_name": "ref_mapping_108",
+                "json_file": "MASTER_2019/ref_mapping_108.json"
+            }
+        ],
+        "views": [
+            {
+                "view_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ],
+        "triggers": [
+            {
+                "trigger_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ],
+        "routines": [
+            {
+                "routine_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ]
+    }
+]

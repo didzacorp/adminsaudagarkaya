@@ -1,0 +1,80 @@
+{
+    "tableName": "pengaturan_persediaan",
+    "dumpFile": "MASTER_2019\/pengaturan_persediaan.sql",
+    "index": [
+        {
+            "column_name": "id",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "id",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "tanggal",
+            "COLUMN_TYPE": "date",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "asal_data_barang",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "metode_perhitungan",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "program_kegiatan",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "stock_of_name",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tahun",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tanggal_cek",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO pengaturan_persediaan (id,tanggal,asal_data_barang,metode_perhitungan,program_kegiatan,stock_of_name,tahun,tanggal_cek) values ('1','2017-01-01','1','1','1','1','2017','2017-12-01') "
+    ]
+}

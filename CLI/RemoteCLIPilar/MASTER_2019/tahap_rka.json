@@ -1,0 +1,72 @@
+{
+    "tableName": "tahap_rka",
+    "dumpFile": "MASTER_2019\/tahap_rka.sql",
+    "index": [
+        {
+            "column_name": "id",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "id",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "tahun_anggaran",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jenis_anggaran",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "nomor_urut",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "type_tahap",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "status",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "uid",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO tahap_rka (id,tahun_anggaran,jenis_anggaran,nomor_urut,type_tahap,status,uid) values ('1','2017','MURNI','1','PENYUSUNAN','1','kszxpo') "
+    ]
+}

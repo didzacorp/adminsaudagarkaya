@@ -1,0 +1,47 @@
+{
+    "tableName": "ref_modul",
+    "dumpFile": "MASTER_2019\/ref_modul.sql",
+    "index": [
+        {
+            "column_name": "id_modul",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "id_modul",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "nama_modul",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "status",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('1','PLAFON','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('2','RENJA','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('3','RKBMD','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('4','RKA','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('7','R-APBD','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('8','APBD','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('9','DPA','AKTIF') ",
+        "INSERT INTO ref_modul (id_modul,nama_modul,status) values ('10','SPD','AKTIF') "
+    ]
+}

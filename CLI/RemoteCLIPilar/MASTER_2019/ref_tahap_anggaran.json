@@ -1,0 +1,160 @@
+{
+    "tableName": "ref_tahap_anggaran",
+    "dumpFile": "MASTER_2019\/ref_tahap_anggaran.sql",
+    "index": [
+        {
+            "column_name": "id_tahap",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "id_tahap",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "nama_tahap",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "anggaran",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tahun",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "no_urut",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "id_modul",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jenis_form_modul",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tanggal_mulai",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jam_mulai",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tanggal_selesai",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jam_selesai",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "status_jadwal",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "status_penyusunan",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "tgl_update",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "user",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('1','','MURNI','2018','1','1','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('2','','MURNI','2018','2','2','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('3','','MURNI','2018','3','3','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('4','','MURNI','2018','4','KOREKSI PENGGUNA','KOREKSI PENGGUNA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('5','','MURNI','2018','5','KOREKSI PENGELOLA','KOREKSI PENGELOLA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('6','','MURNI','2017','1','1','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('7','','MURNI','2017','2','2','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('8','','MURNI','2017','3','3','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('9','','MURNI','2017','4','KOREKSI PENGGUNA','KOREKSI PENGGUNA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('10','','MURNI','2017','5','KOREKSI PENGELOLA','KOREKSI PENGELOLA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('11','','MURNI','2019','1','1','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('12','','MURNI','2019','2','2','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('13','','MURNI','2019','3','3','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('14','','MURNI','2019','4','KOREKSI PENGGUNA','KOREKSI PENGGUNA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('15','','MURNI','2019','5','KOREKSI PENGELOLA','KOREKSI PENGELOLA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('16','','MURNI','','1','1','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('17','','MURNI','','2','2','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('18','','MURNI','','3','3','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('19','','MURNI','','4','KOREKSI PENGGUNA','KOREKSI PENGGUNA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('20','','MURNI','','5','KOREKSI PENGELOLA','KOREKSI PENGELOLA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('21','','MURNI','2018','1','1','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('22','','MURNI','2018','2','2','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('23','','MURNI','2018','3','3','PENYUSUNAN','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('24','','MURNI','2018','4','KOREKSI PENGGUNA','KOREKSI PENGGUNA','','','','','','','','') ",
+        "INSERT INTO ref_tahap_anggaran (id_tahap,nama_tahap,anggaran,tahun,no_urut,id_modul,jenis_form_modul,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai,status_jadwal,status_penyusunan,tgl_update,user) values ('25','','MURNI','2018','5','KOREKSI PENGELOLA','KOREKSI PENGELOLA','','','','','','','','') "
+    ]
+}

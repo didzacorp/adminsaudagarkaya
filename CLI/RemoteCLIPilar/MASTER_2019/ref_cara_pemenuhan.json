@@ -1,0 +1,25 @@
+{
+    "tableName": "ref_cara_pemenuhan",
+    "dumpFile": "MASTER_2019\/ref_cara_pemenuhan.sql",
+    "index": [
+        {
+            "column_name": "cara_pemenuhan",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "cara_pemenuhan",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO ref_cara_pemenuhan (cara_pemenuhan) values ('PEMBELIAN') ",
+        "INSERT INTO ref_cara_pemenuhan (cara_pemenuhan) values ('SEWA') "
+    ]
+}

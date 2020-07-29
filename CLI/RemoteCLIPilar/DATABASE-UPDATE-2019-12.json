@@ -1,0 +1,113 @@
+[
+    {
+        "databaseName": "saudagar_kaya",
+        "tables": [
+            {
+                "table_name": "admin",
+                "json_file": "DATABASE-UPDATE-2019-12/admin.json"
+            },
+            {
+                "table_name": "cart",
+                "json_file": "DATABASE-UPDATE-2019-12/cart.json"
+            },
+            {
+                "table_name": "copy_writing",
+                "json_file": "DATABASE-UPDATE-2019-12/copy_writing.json"
+            },
+            {
+                "table_name": "detail_transaksi",
+                "json_file": "DATABASE-UPDATE-2019-12/detail_transaksi.json"
+            },
+            {
+                "table_name": "funnel",
+                "json_file": "DATABASE-UPDATE-2019-12/funnel.json"
+            },
+            {
+                "table_name": "galeri",
+                "json_file": "DATABASE-UPDATE-2019-12/galeri.json"
+            },
+            {
+                "table_name": "komisi",
+                "json_file": "DATABASE-UPDATE-2019-12/komisi.json"
+            },
+            {
+                "table_name": "log_alamat",
+                "json_file": "DATABASE-UPDATE-2019-12/log_alamat.json"
+            },
+            {
+                "table_name": "member",
+                "json_file": "DATABASE-UPDATE-2019-12/member.json"
+            },
+            {
+                "table_name": "news",
+                "json_file": "DATABASE-UPDATE-2019-12/news.json"
+            },
+            {
+                "table_name": "omset",
+                "json_file": "DATABASE-UPDATE-2019-12/omset.json"
+            },
+            {
+                "table_name": "pembayaran_komisi",
+                "json_file": "DATABASE-UPDATE-2019-12/pembayaran_komisi.json"
+            },
+            {
+                "table_name": "produk",
+                "json_file": "DATABASE-UPDATE-2019-12/produk.json"
+            },
+            {
+                "table_name": "ref_kategori",
+                "json_file": "DATABASE-UPDATE-2019-12/ref_kategori.json"
+            },
+            {
+                "table_name": "rekap_transaksi",
+                "json_file": "DATABASE-UPDATE-2019-12/rekap_transaksi.json"
+            },
+            {
+                "table_name": "setting",
+                "json_file": "DATABASE-UPDATE-2019-12/setting.json"
+            },
+            {
+                "table_name": "temp_media_produk",
+                "json_file": "DATABASE-UPDATE-2019-12/temp_media_produk.json"
+            },
+            {
+                "table_name": "trafic",
+                "json_file": "DATABASE-UPDATE-2019-12/trafic.json"
+            },
+            {
+                "table_name": "training",
+                "json_file": "DATABASE-UPDATE-2019-12/training.json"
+            },
+            {
+                "table_name": "transaksi",
+                "json_file": "DATABASE-UPDATE-2019-12/transaksi.json"
+            },
+            {
+                "table_name": "users",
+                "json_file": "DATABASE-UPDATE-2019-12/users.json"
+            },
+            {
+                "table_name": "watched_training",
+                "json_file": "DATABASE-UPDATE-2019-12/watched_training.json"
+            }
+        ],
+        "views": [
+            {
+                "view_name": "view_rekap_komisi",
+                "json_file": "DATABASE-UPDATE-2019-12/view_rekap_komisi.json"
+            }
+        ],
+        "triggers": [
+            {
+                "trigger_name": "",
+                "json_file": "DATABASE-UPDATE-2019-12/.json"
+            }
+        ],
+        "routines": [
+            {
+                "routine_name": "",
+                "json_file": "DATABASE-UPDATE-2019-12/.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+{
+    "tableName": "admin",
+    "dumpFile": "DATABASE-UPDATE-2019-12\/admin.sql",
+    "index": [
+        {
+            "column_name": "uid",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "uid",
+            "COLUMN_TYPE": "varchar(20)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "nama",
+            "COLUMN_TYPE": "varchar(100)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "password",
+            "COLUMN_TYPE": "varchar(32)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "status",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "online",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "lastaktif",
+            "COLUMN_TYPE": "datetime",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "ipaddr",
+            "COLUMN_TYPE": "varchar(50)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "sesino",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "jenis_user",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "hak_akses",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": null
+}

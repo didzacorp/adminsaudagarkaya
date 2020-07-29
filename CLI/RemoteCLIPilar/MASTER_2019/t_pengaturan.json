@@ -1,0 +1,120 @@
+{
+    "tableName": "t_pengaturan",
+    "dumpFile": "MASTER_2019\/t_pengaturan.sql",
+    "index": [
+        {
+            "column_name": "Id",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "Id",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "nama_bidang",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "nama_skpd",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "alamat",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "kota",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "titimangsa_surat",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "nama_aplikasi",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "skpd",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "kode_barang",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "harga_atribusi",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "cara_kptls",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "msg_del_gmbr",
+            "COLUMN_TYPE": "char(1)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "YES",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "msg_perawatan",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO t_pengaturan (Id,nama_bidang,nama_skpd,alamat,kota,titimangsa_surat,nama_aplikasi,skpd,kode_barang,harga_atribusi,cara_kptls,msg_del_gmbr,msg_perawatan) values ('1','Bidang Aset','BPKAD Kab Bogor','Jl. Cibinong','Kabupaten Bogor','Cibinong','ATISISBADA','1','1','0','2','0','') "
+    ]
+}

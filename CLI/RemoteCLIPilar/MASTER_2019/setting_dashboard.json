@@ -1,0 +1,50 @@
+{
+    "tableName": "setting_dashboard",
+    "dumpFile": "MASTER_2019\/setting_dashboard.sql",
+    "index": [
+        {
+            "column_name": "id",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "id",
+            "COLUMN_TYPE": "int(11)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "nama",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "isi",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "keterangan",
+            "COLUMN_TYPE": "text",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_swedish_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO setting_dashboard (id,nama,isi,keterangan) values ('1','JENIS DIAGRAM','BATANG','BATANG \/ GARIS') ",
+        "INSERT INTO setting_dashboard (id,nama,isi,keterangan) values ('2','JARAK PERKEMBANGAN ASET','2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019','TAHUN MULAI  - TAHUN AKHIR') ",
+        "INSERT INTO setting_dashboard (id,nama,isi,keterangan) values ('3','JUMLAH DATA \/ HALAMAN','25','JUMLAH DATA \/ HALAMAN') "
+    ]
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "databaseName": "master_atisisbada_id",
+        "tables": [
+            {
+                "table_name": "t_penerimaan_barang_det",
+                "json_file": "TEST/t_penerimaan_barang_det.json"
+            }
+        ],
+        "views": [
+            {
+                "view_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ],
+        "triggers": [
+            {
+                "trigger_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ],
+        "routines": [
+            {
+                "routine_name": "",
+                "json_file": "MASTER_2019/.json"
+            }
+        ]
+    }
+]

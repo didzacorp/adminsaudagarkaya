@@ -1,0 +1,39 @@
+{
+    "tableName": "ref_sumber_dana",
+    "dumpFile": "MASTER_2019\/ref_sumber_dana.sql",
+    "index": [
+        {
+            "column_name": "nama",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "nama",
+            "COLUMN_TYPE": "varchar(100)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO ref_sumber_dana (nama) values ('APBD') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('BANPROV') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Block Grand') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('BLUD') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('BOS ') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('BOS APBD') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('BOS APBN') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('DAK') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('DBHCHT\/Cukai') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Hibah') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Hibah Provinsi') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Hibah Pusat') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('JKN') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Komite') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Sumber Dana Baru') ",
+        "INSERT INTO ref_sumber_dana (nama) values ('Wakaf') "
+    ]
+}

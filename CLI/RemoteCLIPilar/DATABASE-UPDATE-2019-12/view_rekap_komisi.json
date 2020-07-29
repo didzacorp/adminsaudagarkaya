@@ -1,0 +1,6 @@
+{
+    "VIEW_NAME": "view_rekap_komisi",
+    "VIEW_SOURCE": "CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_rekap_komisi` AS select `member`.`id` AS `id_member`,sum(`komisi`.`komisi`) AS `komisi`,(select count(`komisi`.`id`) from `komisi` where ((`komisi`.`jenis_komisi` = 'PENJUALAN') and (`komisi`.`id_member` = `member`.`id`))) AS `totalPenjualan`,`komisi`.`tanggal` AS `tanggal` from (`komisi` left join `member` on((`member`.`id` = `komisi`.`id_member`))) where (`komisi`.`komisi` > 0) group by `member`.`id`",
+    "CHARSET": "utf8",
+    "COLLATION": "utf8_general_ci"
+}

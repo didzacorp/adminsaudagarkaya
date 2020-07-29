@@ -1,0 +1,60 @@
+{
+    "tableName": "ref_jenis_pemeliharaan",
+    "dumpFile": "MASTER_2019\/ref_jenis_pemeliharaan.sql",
+    "index": [
+        {
+            "column_name": "Id",
+            "key_name": "PRIMARY",
+            "non_uniqe": "0"
+        },
+        {
+            "column_name": "jenis",
+            "key_name": "jenis",
+            "non_uniqe": "0"
+        }
+    ],
+    "colums": [
+        {
+            "COLUMN_NAME": "Id",
+            "COLUMN_TYPE": "tinyint(2)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": "auto_increment"
+        },
+        {
+            "COLUMN_NAME": "jenis",
+            "COLUMN_TYPE": "varchar(200)",
+            "CHARACTER_SET_NAME": "latin1",
+            "COLLATION_NAME": "latin1_general_ci",
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "menambah_aset",
+            "COLUMN_TYPE": "tinyint(1)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        },
+        {
+            "COLUMN_NAME": "menambah_manfaat",
+            "COLUMN_TYPE": "tinyint(1)",
+            "CHARACTER_SET_NAME": null,
+            "COLLATION_NAME": null,
+            "IS_NULLABLE": "NO",
+            "AUTO_INCREMENT": ""
+        }
+    ],
+    "default_value": [
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('2','RUTIN','2','2') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('3','RENOVASI','1','1') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('9','REHABILITASI','1','1') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('10','OVERHAUL','1','1') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('11','RESTORASI','1','1') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('12','PENINGKATAN','1','2') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('13','PELABURAN','2','2') ",
+        "INSERT INTO ref_jenis_pemeliharaan (Id,jenis,menambah_aset,menambah_manfaat) values ('14','pemeliharaan baru','1','2') "
+    ]
+}
